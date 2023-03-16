@@ -27,7 +27,7 @@ pipeline  {
       steps {
         echo "Getting Packer Repo"
         git(
-        url:'git@github.com:ochoadevops/petclinic-package.git',
+        url:'git@github.com:katswhatsup/petclinic-package.git',
         credentialsId: 'package',
         branch: "main"
         )
